@@ -206,7 +206,7 @@
 	<key>NSNavLastRootDirectory</key>
 	<string>~/Projects/dotfiles-and-settings/iterm-settings</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
-	<string>{712, 448}</string>
+	<string>{712, 459}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -215,6 +215,19 @@
 	<false/>
 	<key>NSScrollViewShouldScrollUnderTitlebar</key>
 	<false/>
+	<key>NSTableView Columns KeyBingingTable</key>
+	<array>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErATCG
+		</data>
+		<string>198</string>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErATGG
+		</data>
+		<string>322</string>
+	</array>
 	<key>NSTableView Columns v2 KeyBingingTable</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGNjdYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
@@ -228,6 +241,10 @@
 	AOcA7gDyAPQA9gD4APwA/gEAAQIBBAEGAQ8BFAEjAScBLwFBAUQBSgAAAAAAAAIBAAAA
 	AAAAADoAAAAAAAAAAAAAAAAAAAFM
 	</data>
+	<key>NSTableView Hidden Columns KeyBingingTable</key>
+	<array/>
+	<key>NSTableView Sort Ordering KeyBingingTable</key>
+	<array/>
 	<key>NSTableView Sort Ordering v2 KeyBingingTable</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGFBVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
@@ -246,15 +263,15 @@
 	<key>NSWindow Frame Preferences</key>
 	<string>777 -508 924 485 254 -900 1440 877 </string>
 	<key>NSWindow Frame SUAutomaticUpdateAlert</key>
-	<string>412 528 616 174 0 0 1440 877 </string>
+	<string>332 -347 616 174 0 -800 1280 777 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
-	<string>269 76 606 456 0 0 1440 877 </string>
+	<string>424 130 606 456 0 0 1920 1177 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>154 152 796 473 0 0 1440 877 </string>
+	<string>116 704 796 473 0 0 1920 1177 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 589 570 452 0 0 1920 1057 </string>
+	<string>0 -475 570 452 0 -800 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>247 107 570 452 0 0 1920 1057 </string>
 	<key>New Bookmarks</key>
@@ -1397,7 +1414,11 @@
 	<key>NoSyncInstallationId</key>
 	<string>39F9AA5E-7360-485F-A781-89094C39FAD0</string>
 	<key>NoSyncLastTipTime</key>
-	<real>508853430.76955098</real>
+	<real>508939844.631872</real>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
@@ -1471,6 +1492,7 @@
 		<string>0063</string>
 		<string>0064</string>
 		<string>0064</string>
+		<string>0065</string>
 	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
@@ -1522,7 +1544,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/ymihaylov/Projects/dotfiles-and-settings/iterm-settings</string>
+	<string>/Users/yavormihailov/Projects/dotfiles-and-settings/iterm-settings</string>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -1544,7 +1566,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-02-13T08:00:16Z</date>
+	<date>2017-04-05T13:41:14Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Secure Input</key>
@@ -1552,7 +1574,7 @@
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>ShowPaneTitles</key>
 	<true/>
 	<key>SmartPlacement</key>
@@ -1596,6 +1618,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.14</string>
+	<string>3.0.15</string>
 </dict>
 </plist>
