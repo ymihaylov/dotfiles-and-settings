@@ -9,6 +9,8 @@
 [alias]
 	co = checkout
 	ci = commit
+    cm = commit -m
+    pl = pull
 	st = status
 	br = branch
     mrg = merge
@@ -32,7 +34,7 @@
     rbs = rebase staging
 
     # Compare branch to master, usually performmed right after rbm
-    dfs = diff  master
+    dfm = diff  master
 
     # Compare branch to staging, usually performmed right after rbs
     dfs = diff staging
