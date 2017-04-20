@@ -11,7 +11,7 @@ fi
 echo 'What would you want me to do with this file?'
 echo '1) git add'
 echo '2) git checkout'
-echo '3) or 0) NO ACTION'
+echo 'Press any other key for NO ACTION!'
 echo '-------------------'
 echo -n 'Enter your choice: '
 
