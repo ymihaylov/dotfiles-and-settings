@@ -26,7 +26,7 @@ export PATH="/Users/yavormihailov/bin:/Users/yavormihailov/.composer/vendor/bin:
 export PATH="/usr/local/sbin:$PATH"
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/ymihaylov/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
