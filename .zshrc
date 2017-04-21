@@ -22,7 +22,7 @@ plugins=(git)
 # -----------
 
 # Export PATH var
-export PATH="/Users/ymihaylov/bin:/Users/ymihaylov/.composer/vendor/bin:$PATH"
+export PATH="/Users/yavormihailov/bin:/Users/yavormihailov/.composer/vendor/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 
 # Path to your oh-my-zsh installation.
