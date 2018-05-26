@@ -1,0 +1,3 @@
+alias sgf="cd $HOME/Projects/SGFramework"
+alias nemo="cd $HOME/Projects/nemo-api"
+alias sgc="cd $HOME/Projects/sg-common"
