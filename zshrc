@@ -101,6 +101,7 @@ if [[ -e $HOME/.aliases ]]; then
     source $HOME/.aliases
 fi
 
+# --- Exports
 if [[ -e $HOME/.exports ]]; then
     source $HOME/.exports
 fi
