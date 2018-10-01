@@ -1,0 +1,1 @@
+alias path='print -l ${(s#:#)PATH}' # List entries in $PATH one path per line.
