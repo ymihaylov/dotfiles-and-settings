@@ -207,6 +207,8 @@
 	<true/>
 	<key>MaxVertically</key>
 	<false/>
+	<key>NSFontPanelPreviewHeight</key>
+	<real>100</real>
 	<key>NSNavLastRootDirectory</key>
 	<string>~/Projects/dotfiles-and-settings/iterm-settings</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
@@ -247,6 +249,8 @@
 		<key>TB Is Shown</key>
 		<integer>1</integer>
 	</dict>
+	<key>NSWindow Frame NSFontPanel</key>
+	<string>769 110 445 103 0 0 1280 777 </string>
 	<key>NSWindow Frame SUAutomaticUpdateAlert</key>
 	<string>332 452 616 174 0 0 1280 777 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
@@ -254,7 +258,7 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 126 606 469 0 0 1280 777 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>207 187 796 486 0 0 1280 777 </string>
+	<string>207 159 796 486 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 324 1280 453 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
@@ -762,7 +766,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Monaco 12</string>
+			<string>Menlo-RegularForPowerline 14</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
