@@ -1,7 +1,5 @@
-[user]
-    name = Yavor Mihaylov
-    email = yavor.st.m@gmail.com
-    username = ymihaylov
+[include]
+    path = ~/.gitconfig.local
 [push]
     default = simple
 [core]
@@ -16,6 +14,8 @@
     mrg = merge
     chp = cherry-pick
 
+    # --- LOGS
+
     # Pretty log of commits. Supports options of git log
     # The 8-char abbreviation works well with the default pretty format below
     l = log --abbrev-commit --abbrev=8
@@ -28,41 +28,25 @@
     # Log with --name-status
     lns = log --name-status
 
-    # Rebase to master branch
-    rbm = rebase master
+    # --- REBASE
 
-    # Rebase to staging branch
-    rbs = rebase staging
+    # Rebase to master branch
+    rbm = rebase origin master
+
+    # --- DIFF
 
     # Compare branch to master, usually performmed right after rbm
-    dfm = diff master
+    dfm = diff origin master
 
-    # Compare branch to staging, usually performmed right after rbs
-    dfs = diff staging
 
+    # Other
     # Remove branches that have already been merged with master
     dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
 
+    # --- OTHER
+
     # Amend the currently staged files to the last commit
-    # See`git help commit
-    # amend = commit --amend --reuse-message=HEAD
-
-    # Checkout staging and merge current branch to it
-    # mrgst = "!curBranch=`git rev-parse --abbrev-ref HEAD`;git co staging;echo \"Merging $curBranch to staging\";git merge $curBranch;"
-
-    # Rebase current branch to staging, checkout staging and merge current branch to it
-    # rbmst = "!git rebase staging && curBranch=`git rev-parse --abbrev-ref HEAD`;git co staging;echo \"Merging $curBranch to staging\";git merge $curBranch;"
-
-# [diff-so-fancy]
-# Configure diff-so-fancy with ASCII separators
-# https://github.com/so-fancy/diff-so-fancy
-#   useUnicodeRuler = false
-
-# [diff "asciidiff"]
-#   textconv = /usr/bin/img-ascii-diff
-
-# [interactive]
-#   diffFilter = diff-so-fancy | less --tabs=4 --RAW-CONTROL-CHARS --quit-if-one-screen --no-init --tilde --status-column --HILITE-UNREAD
+    amend = commit --amend --reuse-message=HEAD
 
 [pager]
     # Use colors when paging regardless of default color setting.
@@ -73,7 +57,7 @@
 
 [color]
     # Use colors in Git commands that are capable of colored output when
-        # outputting to the terminal. (This is the default setting in Git ≥ 1.8.4.)
+    # outputting to the terminal. (This is the default setting in Git ≥ 1.8.4.)
     ui = auto
 
 [format]
@@ -82,3 +66,14 @@
 [pretty]
     colourful = "format:%Cred%<(8)%h%Creset %<(75,trunc)%s %Cgreen%<(11)%cr%Creset%Cblue%<(17)% aN%Creset%C(yellow)% D%Creset %gN"
     live = "format:%Cred%<(6)%h%Creset %<(50,trunc)%s%C(yellow)% D%Creset %gN"
+
+# [diff-so-fancy]
+# Configure diff-so-fancy with ASCII separators
+# https://github.com/so-fancy/diff-so-fancy
+#   useUnicodeRuler = false
+
+# [diff "asciidiff"]
+#   textconv = /usr/bin/img-ascii-diff
+
+# [interactive]
+# diffFilter = diff-so-fancy | less --tabs=4 --RAW-CONTROL-CHARS --quit-if-one-screen --no-init --tilde --status-column --HILITE-UNREAD

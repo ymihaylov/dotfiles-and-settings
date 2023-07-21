@@ -1,5 +1,1 @@
-alias sgf="cd $HOME/Projects/SGFramework"
-alias nemo="cd $HOME/Projects/nemo-api"
-alias sgc="cd $HOME/Projects/sg-common"
-
 alias path='print -l ${(s#:#)PATH}' # List entries in $PATH one path per line.
