@@ -1,0 +1,2 @@
+- iTerm Automated settings - iterm profile
+- 
