@@ -1,2 +1,2 @@
 - iTerm Automated settings - iterm profile
-- 
+- How to automate ordering the doc
