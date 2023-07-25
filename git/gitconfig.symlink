@@ -32,6 +32,8 @@
 
     # Rebase to master branch
     rbm = rebase origin master
+    rbc = rebase --continue
+    rba = rebase --abort
 
     # --- DIFF
 
